@@ -62,6 +62,12 @@ Setelah semua transaksi direset: <br>
 <img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/endres.png'> <br>
 
 ### Test Case 4
-Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total_price(). Sebelum mengeluarkan output total belanja akan menampilkan item- item yang dibeli.
+Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total_price(). Sebelum mengeluarkan output total belanja akan menampilkan item- item yang dibeli. <br>
+<img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/last menu.png'> <br>
+tampilan menu pembayaran: <br>
+<img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/disk.png'> <br>
+tampilan final saat proses transaksi selesai: <br>
+<img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/bayar.png'> <br>
 
 
+## Kesimpulan
