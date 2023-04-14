@@ -39,20 +39,28 @@ Latar belakang dari masalah yang dihadapi oleh Andi adalah kebutuhan untuk mempe
 - `discount`: attribute bertipe float ini digunakan untuk menyimpan persentase diskon yang diterima dari transaksi yang sedang berlangsung.
 
 ## Test Case
-
+<img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/menu.png'> <br>
 ### Test Case 1
 Customer ingin menambahkan dua item baru menggunakan method add_item(). Item yang ditambahkan adalah sebagai berikut:
 
 - Nama Item: Ayam Goreng Kremes, Qty: 2, Harga: 20000
-- Nama Item: Pasta Gigi close down, Qty: 3, Harga: 15000
-
+- Nama Item: Pasta Gigi close down, Qty: 3, Harga: 15000 <br>
+<img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/ayam.png'> <br>
+<img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/psta gigi.png'> <br>
+Menu setelah ditambahkan: <br>
+<img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/menu%201st.png'> <br>
 
 ### Test Case 2
-Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer menggunakan method delete_item() untuk menghapus item. Item yang ingin dihapuskan adalah Pasta Gigi.
+Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer menggunakan method delete_item() untuk menghapus item. Item yang ingin dihapuskan adalah Pasta Gigi. <br>
+<img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/item dihapus.png'> <br>
+Menu setelah terdapat item yang dihapus: <br>
+<img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/menu 2nd.png'> <br>
 
 ### Test Case 3
-Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibelanjakan! Daripada menghapusnya satu satu, maka Customer cukup menggunakan method reset_transaction() untuk menghapus semua item yang sudah ditambahkan.
-
+Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibelanjakan! Daripada menghapusnya satu satu, maka Customer cukup menggunakan method reset_transaction() untuk menghapus semua item yang sudah ditambahkan. <br>
+<img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/reset trans.png'> <br>
+Setelah semua transaksi direset: <br>
+<img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/endres.png'> <br>
 
 ### Test Case 4
 Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total_price(). Sebelum mengeluarkan output total belanja akan menampilkan item- item yang dibeli.
