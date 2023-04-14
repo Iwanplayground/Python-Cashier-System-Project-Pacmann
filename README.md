@@ -46,3 +46,15 @@ Customer ingin menambahkan dua item baru menggunakan method add_item(). Item yan
 - Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
 - Nama Item: Pasta Gigi. Qty: 3, Harga: 15000
 
+
+### Test Case 2
+Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer menggunakan method delete_item() untuk menghapus item. Item yang ingin dihapuskan adalah Pasta Gigi.
+
+### Test Case 3
+Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibelanjakan! Daripada menghapusnya satu satu, maka Customer cukup menggunakan method reset_transaction() untuk menghapus semua item yang sudah ditambahkan.
+
+
+### Test Case 4
+Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total_price(). Sebelum mengeluarkan output total belanja akan menampilkan item- item yang dibeli.
+
+
