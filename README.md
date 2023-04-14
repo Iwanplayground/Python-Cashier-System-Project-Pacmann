@@ -43,8 +43,8 @@ Latar belakang dari masalah yang dihadapi oleh Andi adalah kebutuhan untuk mempe
 ### Test Case 1
 Customer ingin menambahkan dua item baru menggunakan method add_item(). Item yang ditambahkan adalah sebagai berikut:
 
-- Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
-- Nama Item: Pasta Gigi. Qty: 3, Harga: 15000
+- Nama Item: Ayam Goreng Kremes, Qty: 2, Harga: 20000
+- Nama Item: Pasta Gigi close down, Qty: 3, Harga: 15000
 
 
 ### Test Case 2
