@@ -1,1 +1,48 @@
-# Python-Cashier-System-Project-Pacmann
+# Python-Super-Cashier-System-Project-Pacmann
+
+## Latar Belakang
+Latar belakang dari masalah yang dihadapi oleh Andi adalah kebutuhan untuk memperbaiki proses bisnis di supermarket miliknya. Disini andi ingin membuat sistem kasir self-service agar customer dapat diberikan kemudahan dan kenyamanan dengan bisa langsung memasukkan item yang dibeli, jumlah item yang dibeli, dan harga item yang dibeli dari mana saja bahkan dari kota lain. Maka untuk memenuhi ekspetasi tersebut disini sebagai programmer saya diharapkan dapat membuat program super Cashier yang dapat memecahkan masalah tersebut.
+
+## Objective & Requirements
+
+### Objective
+- Membuat sistem kasir self-service di supermarket milik Andi
+- Sistem kasir self-service tersebut dapat melakukan pemasukan item-item yang dibeli oleh customer, jumlah item yang dibeli, dan harga item yang dibeli
+- Customer bisa melakukan pembelian barang dari supermarket meskipun dari luar kota supermarket tersebut
+
+### Requirements
+- Membuat project Super Cashier menggunakan bahasa pemrograman Python.
+- Mengimplementasikan materi function, branching, looping, data structure serta OOP dalam Super Cashier yang dibangun.
+- Adapun beberapa library yang digunakan antara lain: csv, time dan tabulate
+
+## Flowchart
+
+## Penjelasan Kode Program
+- `Transaksi` : adalah Class untuk melakukan transaksi dan menyimpan informasi transaksi.
+- `add_item(self, item)`:  add_item() adl method dari class Transaksi yang berfungsi untuk menambahkan item/barang pada daftar item transaksi.
+- `update_item_name(self, item_name, new_item_name)`: update_item_name() adl method dari class Transaksi yang berfungsi untuk mengupdate nama item dalam transaksi
+- `update_item_qty(self, item_name, new_qty)`: update_item_qty() adl method dari class Transaksi yang berfungsi untuk mengupdate 
+        jumlah item yang ada di dalam list 'items' transaksi.
+- `update_item_price(self, item_name, new_price)`: update_item_price() adl function dari class Transaksi yang berfungsi untuk mengupdate 
+        harga barang yang ada di dalam list 'items' transaksi.nama item yang harganya akan diubah dan harga baru dari item tersebut.
+- `delete_item(self, item_name)`: update_item_price() adl method dari class Transaksi yang berfungsi untuk menghapus 
+       barang yang ada di dalam list 'items' transaksi.
+- `reset_transaction(self)`:  reset_transaction() adl method dari class Transaksi untuk mereset daftar item yang telah ada di transaksi.
+- `check_order(self)`: check order() adl method dari class Transaksi untuk memeriksa nilai kebenaran pesanan yang dibuat.
+        Jika data pesanan memiliki kekurangan informasi (None), maka akan menampilkan pesan
+        "Kesalahan pada saat menginput data"
+        Jika semua data pesanan sudah benar, maka akan menampilkan tabel pesanan beserta informasi jumlah barang, harga, dan total harga yang harus dibayar.
+- `total_price(self)`: total_price() adl method dari class Transaksi untuk menghitung harga total barang berdasarkan item yang dibeli.
+        Jika total pembelian melebihi kriteria maka akan mendapatkan diskon yang sesuai.
+- `transaction`: attribute bertipe list ini digunakan untuk menyimpan daftar item yang ada dalam transaksi.
+- `total_price`: attribute bertipe float ini digunakan untuk menyimpan total harga dari transaksi yang sedang berlangsung.
+- `discount`: attribute bertipe float ini digunakan untuk menyimpan persentase diskon yang diterima dari transaksi yang sedang berlangsung.
+
+## Test Case
+
+### Test Case 1
+Customer ingin menambahkan dua item baru menggunakan method add_item(). Item yang ditambahkan adalah sebagai berikut:
+
+- Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
+- Nama Item: Pasta Gigi. Qty: 3, Harga: 15000
+
