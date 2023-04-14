@@ -71,3 +71,9 @@ tampilan final saat proses transaksi selesai: <br>
 
 
 ## Kesimpulan
+Project python yang telah diprogram tersebut merupakan kode untuk mengelola transaksi pembelian barang di sebuah supermarket yang dimiliki Andi. Proyek ini menggunakan class Transaksi yang memiliki beberapa method seperti add_item, update_item_name, update_item_qty, update_item_price, delete_item, reset_transaction, check_order, dan total_price. Method-method tsb digunakan untuk menambah, mengubah, menghapus item, mereset transaksi, memeriksa pemesanan, dan menghitung total harga serta diskon yang didapatkan.
+
+### Fitur yang dapat dikembangkan kedepan
+- Mungkin kedepannya bisa dikembangkan Super Cashier dengan apps di web atau mobile dengan interface yang jauh lebih user friendly
+- Mengembangkan fitur seperti tracking barang yang sudah pernah dibeli melalui history sehingga user dapat melihat transaksi yang dilakukan di masa lalu 
+- Mengembangkan fitur seperti rincian tipe harga karena tentunya beberapa barang seperti beras, tepung, daging dijual kiloan lalu untuk kertas dalam rim, gelas dan piring dalam lusin serta barang lain yang sekiranya tipenya cukup spesifik.
