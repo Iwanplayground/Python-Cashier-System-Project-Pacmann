@@ -15,7 +15,8 @@ Latar belakang dari masalah yang dihadapi oleh Andi adalah kebutuhan untuk mempe
 - Mengimplementasikan materi function, branching, looping, data structure serta OOP dalam Super Cashier yang dibangun.
 - Adapun beberapa library yang digunakan antara lain: csv, time dan tabulate
 
-## Flowchart
+## Flowchart <br>
+<img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/flw.png'> <br>
 
 ## Penjelasan Kode Program
 - `Transaksi` : adalah Class untuk melakukan transaksi dan menyimpan informasi transaksi.
@@ -34,9 +35,7 @@ Latar belakang dari masalah yang dihadapi oleh Andi adalah kebutuhan untuk mempe
         Jika semua data pesanan sudah benar, maka akan menampilkan tabel pesanan beserta informasi jumlah barang, harga, dan total harga yang harus dibayar.
 - `total_price(self)`: total_price() adl method dari class Transaksi untuk menghitung harga total barang berdasarkan item yang dibeli.
         Jika total pembelian melebihi kriteria maka akan mendapatkan diskon yang sesuai.
-- `transaction`: attribute bertipe list ini digunakan untuk menyimpan daftar item yang ada dalam transaksi.
-- `total_price`: attribute bertipe float ini digunakan untuk menyimpan total harga dari transaksi yang sedang berlangsung.
-- `discount`: attribute bertipe float ini digunakan untuk menyimpan persentase diskon yang diterima dari transaksi yang sedang berlangsung.
+
 
 ## Test Case
 <img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/menu.png'> <br>
