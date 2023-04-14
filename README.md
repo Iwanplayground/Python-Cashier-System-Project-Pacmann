@@ -43,8 +43,7 @@ Latar belakang dari masalah yang dihadapi oleh Andi adalah kebutuhan untuk mempe
 ### Test Case 1
 Customer ingin menambahkan dua item baru menggunakan method add_item(). Item yang ditambahkan adalah sebagai berikut:
 
-- Nama Item: Ayam Goreng Kremes, Qty: 2, Harga: 20000
-- Nama Item: Pasta Gigi close down, Qty: 3, Harga: 15000 <br>
+Nama Item: Ayam Goreng Kremes, Qty: 2, Harga: 20000 dan Pasta Gigi close down, Qty: 3, Harga: 15000 <br>
 <img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/ayam.png'> <br>
 <img src='https://github.com/Iwanplayground/Python-Cashier-System-Project-Pacmann/blob/main/img/psta gigi.png'> <br>
 Menu setelah ditambahkan: <br>
